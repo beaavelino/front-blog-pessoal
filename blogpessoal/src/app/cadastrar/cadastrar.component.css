@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 #img-bg{
     background-image: url('https://i.pinimg.com/564x/da/c2/04/dac2044f1a327f48736c52a276422376.jpg');
 
@@ -6,4 +8,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.textoCad{
+    font-family: 'Dancing Script', cursive;
 }

@@ -2,14 +2,14 @@
 
     <div class="row">
 
-        <div class="col-md-6" id="img-bg" ></div>
+        <div class="col-md-6" id="img-bg"></div>
 
         <div class="col-md-6 mt-5 mb-5">
 
             <div class="row d-flex justify-content-center">
                 <div class="col-md-10">
 
-                    <h1 class="text-center">Cadastro</h1>
+                    <h1 class="textoCad text-center">Cadastro</h1>
 
                     <div class="form-group">
                         <label for="Nome">Nome</label>
@@ -18,7 +18,7 @@
 
                     <div class="form-group">
                         <label for="usuario">Usuário</label>
-                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Seu Usuário">
+                        <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite o seu Usuário">
                     </div>
 
                     <div class="form-group">
@@ -28,20 +28,21 @@
 
                     <div class="form-group">
                         <label for="confirmarSenha">Confirmar Senha</label>
-                        <input class="form-control" type="password" name="confirmarSenha" id="confirmarSenha" placeholder="********">
+                        <input class="form-control" type="password" name="confirmarSenha" id="confirmarSenha"
+                            placeholder="********">
                     </div>
 
                     <div class="form-group">
                         <label for="tipo">Tipo de Usuário</label>
-                       <select class="form-control" name="tipo" id="tipo">
-                           <option>Selecione um tipo de Usuário</option>
-                           <option value="Normal"></option>
-                           <option value="Administrador"></option>
-                       </select>
+                        <select class="form-control" name="tipo" id="tipo">
+                            <option>Selecione um tipo de Usuário: </option>
+                            <option value="Normal">Normal</option>
+                            <option value="Administrador">Administrador</option>
+                        </select>
                     </div>
 
                     <div class="d-flex justify-content-center">
-                        <button type="submit" class="btn btn-dark mr-4">Cancelar</button>
+                        <button type="submit" class="btn btn-dark mr-4" routerLink='/entrar'>Cancelar</button>
                         <button type="submit" class="btn btn-secondary">Cadastrar</button>
                     </div>
 
