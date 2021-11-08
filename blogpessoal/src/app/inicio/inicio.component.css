@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.fundo-inicio{
+    background: #6D214F;
+}
+
+.textos{
+    font-family: 'Dancing Script', cursive;
+    color: #CAD3C8;
+}
+
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-20{
+    font-size: 20pt;
+}

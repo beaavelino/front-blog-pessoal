@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+<nav class="navbar navbar-expand-lg navbar-light bg-fundo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -6,16 +6,16 @@
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
       <ul class="navbar-nav mr-auto d-flex align-items-center">
         <li class="nav-item active">
-          <img src="https://avatars.githubusercontent.com/u/68915182?v=4" alt="Usuario" width="50px" height="50px" class="img-fluid rounded-circle">
+          <img src="{{foto}}" alt="Usuario" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item pl-3">
-          <p class="m-0 font-weight-bold fs-16">Beatriz Avelino</p>
+          <p class="m-0 font-weight-bold fs-16 text-light nome"> Olá, {{nome}}</p>
         </li>
 
         <li class="nav-item pl-3">
           <a href="">
             <p class="fs-16 m-0">
-              <i class="fa fa-pencil-square-o text-dark fs-16" aria-hidden="true"></i>
+              <i class="fa fa-pencil-square-o text-light fs-16" aria-hidden="true"></i>
             </p>
           </a>
           </li>
@@ -23,7 +23,7 @@
       
       <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item pl-3">
-            <a class="m-0 font-weight-bold text-dark fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <a (click)='sair()' class="m-0 font-weight-bold text-light fs-16 sair">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
           </li>
       </ul>
 
